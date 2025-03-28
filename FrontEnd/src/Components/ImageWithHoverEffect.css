@@ -1,0 +1,23 @@
+.ImageContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .Images {
+    max-width: 100%;
+    transition: filter 0.3s ease;
+  }
+  
+  .download-button {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  

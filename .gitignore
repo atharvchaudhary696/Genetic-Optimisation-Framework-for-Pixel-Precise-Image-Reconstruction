@@ -1,0 +1,110 @@
+# macOS system files
+.DS_Store
+
+# macOS folder metadata
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows Thumbs.db files
+Thumbs.db
+
+# Windows desktop.ini files
+desktop.ini
+
+# Visual Studio Code settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+env/
+
+# Compiled Python files
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled binary files
+*.dll
+*.exe
+*.o
+
+# Compiled Java files
+*.class
+
+# Node.js dependencies
+node_modules/
+
+# Compiled output of Sass
+.sass-cache/
+
+# Compiled output of Less
+*.css.map
+
+# Compiled output of TypeScript
+*.js.map
+
+# Compiled output of CoffeeScript
+*.js
+
+# Ruby gems
+*.gem
+
+# Compiled Java classes
+bin/
+target/
+
+# Compiled LaTeX files
+*.aux
+*.log
+*.out
+*.toc
+
+# Compiled PDFs and other LaTeX outputs
+*.pdf
+*.dvi
+*.ps
+*.svg
+
+# macOS folder metadata files
+.AppleDouble
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains IDEs
+.idea/
+
+# Eclipse IDE
+.settings/
+
+# Windows-specific files
+ehthumbs.db
+Thumbs.db
+
+# macOS-specific files
+.AppleDesktop
+.AppleDouble
+.LSOverride
+._*
+
+# Windows Recycle Bin
+$RECYCLE.BIN/
