@@ -30,7 +30,7 @@ class Main:
 
         DrawLines(blank_image,line_parameters,"Output/Csv/modified_line_parameters.csv",debug=self.debug)
 
-        # Save the image to a file
+      
         cv2.imwrite(f"Output\OutputImages/{num}.png", blank_image)
 
         

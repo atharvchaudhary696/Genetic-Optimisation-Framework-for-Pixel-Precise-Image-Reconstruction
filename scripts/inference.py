@@ -44,7 +44,6 @@ def display_side_by_side(original_path, final_path):
     original_img = Image.open(original_path)
     original_img_resized = original_img.resize((150, 150))
     
-    # Load the final generated image.
     final_img = Image.open(final_path)
     
     # Create a side-by-side comparison plot.
@@ -86,7 +85,7 @@ def inference(image_path="data/raw/fruit.jpg", output_folder="data/processed", d
     # Run the genetic algorithm.
     genetic_model.genetic_algorithm(parameters_list, output_folder)
     
-    # Define the final image path.
+    
     final_image_path = os.path.join(output_folder, "solution.png")
     if display:
         display_side_by_side(image_path, final_image_path)

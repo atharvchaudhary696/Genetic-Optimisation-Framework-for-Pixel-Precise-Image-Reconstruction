@@ -45,11 +45,10 @@ def display_image(image_path="Output\OutputImages\solution.png"):
         print(f"Error: {image_path} is not a valid file.")
         return
 
-    # Read the image
     image = cv2.imread(image_path)
 
     if image is not None:
-        # Display the image
+       
         plt.figure(figsize=(6, 4))
         plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
         plt.title(os.path.basename(image_path))
@@ -75,14 +74,13 @@ def display_2images(image1_name, image2_name,folder_path="Output\OutputImages"):
     # Create a 1x2 grid for the two images
     fig, axes = plt.subplots(1, 2, figsize=(12, 4))
 
-    # Load and display the first image
+  
     image1 = cv2.imread(image1_path)
     if image1 is not None:
         axes[0].imshow(cv2.cvtColor(image1, cv2.COLOR_BGR2RGB))
         axes[0].set_title(image1_name)
         axes[0].axis('off')
 
-    # Load and display the second image
     image2 = cv2.imread(image2_path)
     if image2 is not None:
         axes[1].imshow(cv2.cvtColor(image2, cv2.COLOR_BGR2RGB))
@@ -93,4 +91,4 @@ def display_2images(image1_name, image2_name,folder_path="Output\OutputImages"):
     plt.show()
 if __name__ == "__main__":
     folder_path = "Output\OutputImages"
-    display_images()
+    display_image()

@@ -19,7 +19,6 @@ def filter1(ImagePath="Output\FinalImg1.png",OutputFolder='Output/'):
     image = cv2.stylization(image, sigma_s=radius, sigma_r=dynamic_range)
     cv2.imwrite(ImagePath, image)
 def filter3(ImagePath="Output\FinalImg1.png",OutputFolder='Output/'):
-        # Load an image
     im_arr = cv2.imread("D:/downloads/opencv_logo.PNG")
     
     # Add salt and pepper noise to the image

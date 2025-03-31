@@ -61,7 +61,6 @@ def DrawLines(blank_image, line_parameters, output_csv_file, debug=False):
                 "Line Color (BGR)": params["Line Color (BGR)"]
             })
 
-# Example usage
 if __name__ == "__main__":
     image_height = 800
     image_width = 800

@@ -97,11 +97,11 @@ def entropy_fitness_fun(target_chrom, indiv_chrom):
     fitness = np.mean(np.abs(target_chrom - indiv_chrom))
 
     # Calculate the entropy of the individual chromosome
-    indiv_entropy = stats.entropy(indiv_chrom.flatten(), base=2)
-
+    # indiv_entropy = stats.entropy(indiv_chrom.flatten(), base=2)
+#
     # Combine the fitness and entropy terms
     # Adjust the weight of the entropy term
-    fitness = fitness - 0.01 * indiv_entropy
+    fitness # = fitness - 0.01 * indiv_entropy
 
     return fitness
 def calc_population_entropy_fitness(target_chrom, population):
